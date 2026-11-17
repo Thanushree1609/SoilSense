@@ -1,0 +1,145 @@
+{
+    "feature_names": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "pH",
+        "Organic_Carbon"
+    ],
+    "tree": {
+        "feature": 2,
+        "threshold": 293.55499999999995,
+        "left": {
+            "feature": 0,
+            "threshold": 566.99,
+            "left": {
+                "feature": 2,
+                "threshold": 105.375,
+                "left": {
+                    "feature": 0,
+                    "threshold": 273.865,
+                    "left": {
+                        "leaf": "Low"
+                    },
+                    "right": {
+                        "feature": 1,
+                        "threshold": 10.29,
+                        "left": {
+                            "leaf": "Low"
+                        },
+                        "right": {
+                            "leaf": "Moderate"
+                        }
+                    }
+                },
+                "right": {
+                    "feature": 1,
+                    "threshold": 8.940000000000001,
+                    "left": {
+                        "feature": 0,
+                        "threshold": 273.97,
+                        "left": {
+                            "leaf": "Low"
+                        },
+                        "right": {
+                            "leaf": "Moderate"
+                        }
+                    },
+                    "right": {
+                        "feature": 2,
+                        "threshold": 279.985,
+                        "left": {
+                            "leaf": "Moderate"
+                        },
+                        "right": {
+                            "leaf": "High"
+                        }
+                    }
+                }
+            },
+            "right": {
+                "feature": 1,
+                "threshold": 23.8,
+                "left": {
+                    "feature": 1,
+                    "threshold": 6.38,
+                    "left": {
+                        "leaf": "Low"
+                    },
+                    "right": {
+                        "feature": 2,
+                        "threshold": 276.65999999999997,
+                        "left": {
+                            "leaf": "Moderate"
+                        },
+                        "right": {
+                            "leaf": "High"
+                        }
+                    }
+                },
+                "right": {
+                    "feature": 1,
+                    "threshold": 24.15,
+                    "left": {
+                        "leaf": "Moderate"
+                    },
+                    "right": {
+                        "feature": 1,
+                        "threshold": 24.675,
+                        "left": {
+                            "leaf": "Moderate"
+                        },
+                        "right": {
+                            "leaf": "High"
+                        }
+                    }
+                }
+            }
+        },
+        "right": {
+            "feature": 1,
+            "threshold": 23.85,
+            "left": {
+                "feature": 0,
+                "threshold": 567.3299999999999,
+                "left": {
+                    "feature": 1,
+                    "threshold": 9.165,
+                    "left": {
+                        "feature": 0,
+                        "threshold": 270.66999999999996,
+                        "left": {
+                            "leaf": "Low"
+                        },
+                        "right": {
+                            "leaf": "Moderate"
+                        }
+                    },
+                    "right": {
+                        "feature": 0,
+                        "threshold": 548.74,
+                        "left": {
+                            "leaf": "Moderate"
+                        },
+                        "right": {
+                            "leaf": "High"
+                        }
+                    }
+                },
+                "right": {
+                    "leaf": "High"
+                }
+            },
+            "right": {
+                "feature": 1,
+                "threshold": 25.16,
+                "left": {
+                    "leaf": "High"
+                },
+                "right": {
+                    "leaf": "High"
+                }
+            }
+        }
+    }
+}
