@@ -222,17 +222,17 @@ function App() {
         predictionResponse,
         cropRecommendationResponse
       ] = await Promise.all([
-        fetch("http://127.0.0.1:8000/analyze", {
+        fetch("https://soilsense-backend-j4du.onrender.com/analyze", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload)
         }),
-        fetch("http://127.0.0.1:8000/predict", {
+        fetch("https://soilsense-backend-j4du.onrender.com/predict", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload)
         }),
-        fetch("http://127.0.0.1:8000/crop-recommendations", {
+        fetch("https://soilsense-backend-j4du.onrender.com/crop-recommendations", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload)
@@ -284,7 +284,7 @@ function App() {
     };
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/analyze-crop", {
+      const response = await fetch("https://soilsense-backend-j4du.onrender.com/analyze-crop", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
