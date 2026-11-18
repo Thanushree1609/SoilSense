@@ -1,0 +1,20 @@
+
+{
+  "name": "SoilSense AI",
+  "short_name": "SoilSense",
+  "description": "AI-powered soil analysis and crop recommendation platform",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f8f5",
+  "theme_color": "#166534",
+  "icons": [
+    {
+      "src": "/soil-sense-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
